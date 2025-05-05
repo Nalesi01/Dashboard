@@ -1,0 +1,8 @@
+pandas
+streamlit
+matplotlib
+seaborn
+matplotlib-venn
+numpy
+plotly
+pywaffle
