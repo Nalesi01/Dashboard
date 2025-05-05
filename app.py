@@ -15,7 +15,7 @@ def load_data():
         data = pd.read_csv(uploaded_file)
         st.success("File uploaded successfully!")
     else:
-        data = pd.read_csv("/Users/naledi/Downloads/Problem_2.csv")  # fallback to default
+        data = pd.read_csv("Problem_2.csv")  # fallback to default
         st.info("Using default dataset. Upload a file to replace.")
     return data
 
